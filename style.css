@@ -1,20 +1,37 @@
-.grid { margin:1em auto; border-collapse:collapse }
-.grid td {
-    cursor:pointer;
-    width:50px; height:50px;
-    border:1px solid #ccc;
-    text-align:center;
-    font-family:sans-serif; font-size:13px
+body {
+	background: silver;
 }
+
+.parent-container{
+	text-align:center;
+}
+
+.player {
+	font-size: 20px;
+}
+
+.grid { 
+	margin:1em auto;  
+	background:blue;
+	border: 5px solid grey;
+}
+
+.grid td {
+	background: white;
+    cursor:pointer;
+    width:80px; height:80px;
+    border-radius: 80px;
+    border: solid #ccc;
+    text-align:center;
+    font-family:sans-serif; font-size:13px;
+    text-align: center;
+}
+
+
 .grid td#yellow {
     background-color:yellow;
 }
 
 .grid td#red {
     background-color:red;
-}
-
-.parent-container {
-	width:50%;
-	height:50%;
 }
