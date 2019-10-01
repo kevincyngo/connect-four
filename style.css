@@ -32,6 +32,15 @@ body {
     background-color:yellow;
 }
 
+.grid td#hover-red {
+    background-color:red;
+}
+
+.grid td#hover-yellow {
+    background-color:yellow;
+}
+
+
 .grid td#red {
     background-color:red;
 }
