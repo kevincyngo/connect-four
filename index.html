@@ -7,8 +7,13 @@
 </head>
 
 <body >
-	<div class="parent-container" id="master">
-		<p class="player"><span id="turn">RED</span>'s turn</p>
+	<div id="gamePrompt">
+		<p>Connect Four</p>
+		<button id="startGame" onclick="isPlaying()">Start Game</button>
+	</div>
+
+	<div class="parent-container" id="master" hidden>
+		<p class="player"><span id="turn" data-turn="red">RED</span>'s turn</p>
 		<script type='text/javascript' src='script.js'></script>
 
 	</div>
